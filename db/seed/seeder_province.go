@@ -1,8 +1,8 @@
 package seed
 
 import (
+	"github.com/simabdi/indonesian-territory/entities"
 	"gorm.io/gorm"
-	"master-indonesian-territory/entities"
 )
 
 func ProvinceSeed(DB *gorm.DB) error {

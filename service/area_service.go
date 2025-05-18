@@ -2,8 +2,8 @@ package service
 
 import (
 	"context"
+	"github.com/simabdi/indonesian-territory/entities"
 	"gorm.io/gorm"
-	"master-indonesian-territory/entities"
 )
 
 type AreaService interface {

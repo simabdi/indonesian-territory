@@ -1,9 +1,9 @@
 package db
 
 import (
+	"github.com/simabdi/indonesian-territory/db/seed"
+	"github.com/simabdi/indonesian-territory/entities"
 	"gorm.io/gorm"
-	"master-indonesian-territory/db/seed"
-	"master-indonesian-territory/entities"
 )
 
 func InitDB(db *gorm.DB) error {
