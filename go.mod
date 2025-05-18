@@ -1,4 +1,4 @@
-module master-indonesian-territory
+module https://github.com/simabdi/indonesian-territory
 
 go 1.22.4
 
