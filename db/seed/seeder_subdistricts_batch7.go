@@ -5,6 +5,10 @@ import (
 	"gorm.io/gorm"
 )
 
+func ptr(s string) *string {
+	return &s
+}
+
 func SubDistrictsSeedBatch7(db *gorm.DB) error {
 	subDistricts := []*entities.SubDistrict{
 		{ID: 58101, Name: "Holdomen", DistrictID: 21153, Code: "95.03.37.2015", MapLat: nil, MapLng: nil},
